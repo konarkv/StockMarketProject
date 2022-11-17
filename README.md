@@ -6,6 +6,6 @@ Given weekly data on S&P500 stocks, outputs list of weeks that satisfy that trig
 The conditions:
   1. The closing price of that week must be greater than the opening price
   2. The low of that week must be lower than any low in the last 5 weeks "hence the name 6 week trigger"
-  3. 
+  3. The volume of stocks traded that week is lower than the average volume
 Also outputs a list of metrics for each stock
 More details within the python file
